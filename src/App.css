@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+/* This line imports the Poppins font from Google Fonts with various weights. */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* This block sets padding and margin to 0 for all elements and sets the box-sizing property to border-box, 
+which includes padding and border in the element's total width and height. */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+/* This sets the font family for the body text to Poppins or sans-serif as a fallback. 
+It also sets the background color of the body to white. */
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+/* This defines a class .container with a maximum width of 80% of its parent container 
+and centers it horizontally with auto margins. */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* This defines a class .flex that uses flexbox to arrange its children in a row, with space between them, 
+and aligns them vertically at the center. */
+a {
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+}
+/* This styles anchor elements, removing their underline, setting the text color to black (#000), 
+and capitalizing the text. */
+ul {
+  list-style-type: none;
+}
+/* This removes the default bullet points from unordered lists. */
+button {
+  border-radius: 5px;
+  padding: 17px 30px;
+  background: #27ae60;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* This styles buttons with rounded corners, green background (#27ae60), white text, and bold font-weight. */
+button i {
+  margin-right: 5px;
+}
+/* This targets <i> elements within buttons and adds a 5px right margin to them. */
+.heading {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+/* This styles a class .heading, centering its text, setting its width to 60% of the parent container, 
+and horizontally centering it with auto margins. */
+.heading h1 {
+  color: #2d3954;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 35px;
+}
+/* This styles the <h1> element within .heading, setting its color to a dark blue (#2d3954), font-weight to 600 (semi-bold),
+ text-transform to capitalize, and font size to 35px. */
+.heading p {
+  color: #72809d;
+}
+/* This styles the <p> elements within .heading, setting their color to a light blue-gray (#72809d). */
+textarea,
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+/* This styles <textarea> and <input> elements, removing their borders, outlines, and backgrounds. */
+.background {
+  padding: 80px 0;
+  position: relative;
+  background: #f7f9fc;
+}
+
+.grid5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+label {
+  color: #2d3954;
+  font-size: 14px;
+}
+.mtop {
+  margin-top: 50px;
+}
+h4 {
+  font-weight: 500;
+  margin-top: 10px;
+}
+.shadow {
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+}
+.padding {
+  padding: 80px 0;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.btn2 {
+  border-radius: 50px;
+  font-size: 20px;
+}
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.btn3 {
+  background: #ff6922;
+  border-radius: 50px;
+}
+.btn4 {
+  background-color: #000;
+  color: #fff;
+}
+.btn5 {
+  border-radius: 50px;
+  padding: 20px 40px;
+  color: #27ae60;
+  font-size: 20px;
+  font-weight: 400;
+  border: 5px solid #27ae601f;
+  background: #fff;
+}
+.back {
+  height: 40vh;
+  position: relative;
+}
+.back img {
+  height: 40vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+.back::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  background: rgba(17, 40, 72, 0.629);
+  z-index: -1;
+}
+.back .container {
+  color: #fff;
+  padding: 120px 0;
+}
+.back h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.mb {
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 800px) {
+  .grid4,
+  .grid3,
+  .grid5 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .heading {
+    width: 100%;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .back::after,
+  .back img,
+  .back {
+    height: 30vh;
+  }
+}
+/* The rest of the CSS follows similar patterns of defining styles for various elements and classes used in the HTML markup,
+ including grid layouts, buttons, images, and media queries for responsive design. */
