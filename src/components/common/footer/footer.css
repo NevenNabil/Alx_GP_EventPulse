@@ -1,0 +1,81 @@
+.footerContact {
+  background-color: #27ae60;
+  padding: 40px 0;
+  color: #fff;
+}
+/* This styles elements with the class `.footerContact`. It sets the background color to a green shade (#27ae60), 
+adds padding of 40px on the top and bottom, and sets the text color to white (#fff). */
+.footerContact h1 {
+  font-size: 40px;
+}
+/* This styles `<h1>` elements within elements with the class `.footerContact`, setting the font size to 40px. */
+footer {
+  background-color: #1d2636;
+  padding: 50px 0;
+  color: #fff;
+}
+/* This styles `<footer>` elements, setting the background color to a dark blue shade (#1d2636), 
+adding padding of 50px on the top and bottom, and setting the text color to white (#fff). */
+footer .container {
+  display: grid;
+  grid-template-columns: 6fr 2fr 2fr 1fr;
+  grid-gap: 20px;
+}
+/* This styles elements with the class `.container` within `<footer>` elements. It sets the display to a grid layout with four columns, 
+with the first column taking 6 fractions of the available space, and the rest taking 2, 2, and 1 fraction(s) respectively. It also sets a grid gap of 20px between grid items. */
+footer img {
+  width: 150px;
+}
+/* This styles `<img>` elements within `<footer>` elements, setting their width to 150px. */
+footer h2 {
+  font-weight: 500;
+}
+/* This styles `<h2>` elements within `<footer>` elements, setting the font weight to 500. */
+footer p {
+  color: grey;
+  margin: 20px 0;
+}
+/* This styles `<p>` elements within `<footer>` elements, setting the text color to grey 
+and adding a margin of 20px on the top and bottom. */
+footer input {
+  background-color: #fff;
+  padding: 17px;
+  width: 100%;
+  border-radius: 5px;
+}
+/* This styles `<input>` elements within `<footer>` elements, setting the background color to white, 
+adding padding of 17px, setting the width to 100%, and adding a border-radius of 5px. */
+footer h3 {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+/* This styles `<h3>` elements within `<footer>` elements, setting the font weight to 500 and adding a bottom margin of 30px. */
+footer ul {
+  display: block;
+}
+/* This styles `<ul>` elements within `<footer>` elements, setting their display property to block. */
+footer ul li {
+  display: block;
+  color: grey;
+  margin-bottom: 20px;
+}
+/* This styles `<li>` elements within `<ul>` elements within `<footer>` elements, 
+setting their display property to block, text color to grey, and adding a bottom margin of 20px. */
+.legal {
+  text-align: center;
+  padding: 20px;
+  background: #1d2636;
+  color: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+/* This styles elements with the class `.legal`, setting the text alignment to center, adding padding of 20px, 
+setting the background color to a dark blue shade (#1d2636), setting the text color to a semi-transparent white (rgba(255, 255, 255, 0.5)),
+ and adding a top border of 1px solid with a slightly transparent white color (rgba(255, 255, 255, 0.1)). */
+@media screen and (max-width: 800px) {
+  footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* This is a media query that applies the following styles when the screen width is 800px or less. 
+It targets the `.container` class within `<footer>` elements and changes the grid-template-columns to repeat two columns each taking 1 fraction of the available space.
+ This adjusts the layout for smaller screens, making it more responsive. */
