@@ -3,9 +3,9 @@ Project Pitch: "RentUp"
 Name of the Project: RentUp
 
 Team Members:
-- Heidi Elsayed
-- Neven Shukri
-- Asmaa Elmallah
+- Heidi Elsayed.
+- Neven Shukri.
+- Asmaa Elmallah.
 
 Description of the Project:
 RentUp is a frontend-only web application designed to revolutionize the way users search for and explore real estate properties. With a modern and intuitive interface, RentUp provides users with a seamless experience to browse properties, view details, and contact agents, all without the need for a backend infrastructure.
