@@ -1,0 +1,86 @@
+.price {
+  text-align: center;
+}
+/* - `.price`: Selects elements with the class name `price`.
+- `text-align: center;`: Aligns the text content of elements inside the `.price` container to the center. */
+.price .content .box {
+  width: 31.5%;
+  padding: 30px;
+  border-radius: 10px;
+}
+/* - `.price .content .box`: Selects elements with the class name `box` that are descendants of elements with both the class names `content` and `price`.
+- `width: 31.5%;`: Sets the width of these boxes to 31.5% of their containing element's width.
+- `padding: 30px;`: Adds 30 pixels of padding inside these boxes.
+- `border-radius: 10px;`: Rounds the corners of these boxes by applying a border radius of 10 pixels. */
+.price button {
+  margin-bottom: 20px;
+}
+/* - `.price button`: Selects button elements that are descendants of elements with the class name `price`.
+- `margin-bottom: 20px;`: Adds a bottom margin of 20 pixels to these buttons. */
+.price .box:nth-child(1) .topbtn button,
+.price .box:nth-child(3) .topbtn button {
+  display: none;
+}
+/* - `.price .box:nth-child(1) .topbtn button, .price .box:nth-child(3) .topbtn button`: Selects buttons within `.topbtn` elements that are descendants of the first and third child elements with the class name `box` inside elements with the class name `price`.
+- `display: none;`: Hides these buttons. */
+.price h3 {
+  font-size: 22px;
+}
+/* - `.price h3`: Selects `h3` elements that are descendants of elements with the class name `price`.
+- `font-size: 22px;`: Sets the font size of these `h3` elements to 22 pixels. */
+.price h1 {
+  font-size: 60px;
+}
+/* - `.price h1`: Selects `h1` elements that are descendants of elements with the class name `price`.
+- `font-size: 60px;`: Sets the font size of these `h1` elements to 60 pixels. */
+.price h1 span {
+  font-size: 30px;
+  font-weight: 500;
+}
+/* - `.price h1 span`: Selects `span` elements that are descendants of `h1` elements within elements with the class name `price`.
+- `font-size: 30px;`: Sets the font size of these `span` elements to 30 pixels.
+- `font-weight: 500;`: Sets the font weight of these `span` elements to 500, making them semi-bold. */
+.price ul {
+  margin-top: 40px;
+}
+/* - `.price ul`: Selects `ul` elements that are descendants of elements with the class name `price`.
+- `margin-top: 40px;`: Adds a top margin of 40 pixels to these `ul` elements. */
+.price ul li {
+  display: flex;
+  margin-bottom: 20px;
+}
+/* - `.price ul li`: Selects `li` elements that are descendants of `ul` elements within elements with the class name `price`.
+- `display: flex;`: Displays these `li` elements as flex items.
+- `margin-bottom: 20px;`: Adds a bottom margin of 20 pixels to these `li` elements. */
+.price label {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+/* - `.price label`: Selects `label` elements that are descendants of elements with the class name `price`.
+- `width: 30px; height: 30px;`: Sets the width and height of these `label` elements to 30 pixels.
+- `line-height: 30px;`: Sets the line height of the text within these `label` elements to 30 pixels.
+- `border-radius: 50%;`: Rounds the corners of these `label` elements by applying a border radius of 50%.
+- `margin-right: 20px;`: Adds a right margin of 20 pixels to these `label` elements. */
+
+.price .btn5 {
+  width: 100%;
+}
+/* - `.price .btn5`: Selects elements with the class name `btn5` that are descendants of elements with the class name `price`.
+- `width: 100%;`: Sets the width of these elements to 100% of their containing element's width. */
+@media screen and (max-width: 800px) {
+  .price .content {
+    flex-direction: column;
+  }
+
+  .price .content .box {
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+}
+/* - `@media screen and (max-width: 800px)`: Defines a media query that applies the enclosed styles only when the screen width is 800 pixels or less.
+- `.price .content`: Selects elements with the class name `content` that are descendants of elements with the class name */

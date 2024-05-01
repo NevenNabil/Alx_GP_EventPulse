@@ -1,0 +1,49 @@
+.contact form div {
+  display: flex;
+}
+/* - This targets `<div>` elements inside the `.contact` class when they are within a `<form>`.
+- `display: flex;` sets the CSS display property of these `<div>` elements to flexbox, 
+enabling a flexible layout where child elements can be aligned horizontally or vertically. */
+.contact textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+/* - This targets `<textarea>` elements within the `.contact` class.
+- `border: 1px solid rgba(0, 0, 0, 0.1);` sets a 1px solid border around the textarea with a slight transparency to the black color.
+- `width: 100%;` makes the textarea span the full width of its container.
+- `border-radius: 5px;` rounds the corners of the textarea.
+- `margin-bottom: 20px;` adds a bottom margin of 20px to create space between textarea elements. */
+.contact input {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+/* - This targets `<input>` elements within the `.contact` class.
+- `margin-bottom: 20px;` adds a bottom margin of 20px to create space between input elements.
+- `margin-right: 10px;` adds a right margin of 10px to create space between input elements. */
+.contact form {
+  padding: 30px;
+}
+/* - This targets `<form>` elements within the `.contact` class.
+- `padding: 30px;` adds padding of 30px inside the form, creating space between the form content and its edges. */
+@media screen and (max-width: 768px) {
+  .contact h4 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact form div {
+    flex-direction: column;
+  }
+  .contact input {
+    width: 100%;
+  }
+}
+/* - This is a media query that targets screens with a maximum width of 768 pixels (typically smaller devices like tablets and mobile phones).
+- `.contact h4 { ... }`: Styles applied to `<h4>` elements within the `.contact` class.
+  - `width: 100%;` makes the `<h4>` element span the full width of its container.
+  - `margin-bottom: 30px;` adds a bottom margin of 30px to create space between `<h4>` elements.
+- `.contact form div { ... }`: Styles applied to `<div>` elements within `<form>` elements with the `.contact` class.
+  - `flex-direction: column;` changes the layout direction of the `<div>` elements from horizontal to vertical, stacking them on top of each other.
+- `.contact input { ... }`: Styles applied to `<input>` elements within the `.contact` class.
+  - `width: 100%;` makes the `<input>` element span the full width of its container within smaller screens. */

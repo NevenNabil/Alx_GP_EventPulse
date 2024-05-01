@@ -1,0 +1,48 @@
+.recent .text {
+  padding: 30px;
+}
+/* `.recent .text`: Targets elements with the class name `.text` that are descendants of elements with the class name `.recent`.
+   
+ `padding: 30px;`: Adds 30 pixels of padding to all sides of the element with the class `.text`. */
+.recent .category span {
+  padding: 4px 15px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-block;
+}
+/* `.recent .category span`: Targets `span` elements with the class name `.category` that are descendants of elements with the class name `.recent`.
+   
+`padding: 4px 15px;`: Adds 4 pixels of padding on the top and bottom, and 15 pixels on the left and right, to the `span` element.
+
+ `border-radius: 2px;`: Sets the border radius to create slightly rounded corners with a radius of 2 pixels for the `span` element.
+
+ `font-weight: 600;`: Sets the font weight to 600, which is typically a bold font weight.
+
+ `font-size: 13px;`: Sets the font size to 13 pixels for the `span` element.
+
+`display: inline-block;`: Sets the `span` element to be displayed as an inline-block element, allowing it to have a width and height and to be positioned relative to other elements. */
+.recent .category i {
+  font-size: 20px;
+  color: #bec7d8;
+}
+/* `.recent .category i`: Targets `i` elements (commonly used for icons) with the class name `.category` that are descendants of elements with the class name `.recent`.
+   
+ `font-size: 20px;`: Sets the font size to 20 pixels for the `i` element, likely used for icons.
+
+ `color: #bec7d8;`: Sets the color of the `i` element to a light grayish-blue (#bec7d8). */
+.recent p {
+  color: #72809d;
+}
+/* `.recent p`: Targets `p` elements that are descendants of elements with the class name `.recent`.
+   
+ `color: #72809d;`: Sets the text color of the `p` elements to a muted blue-gray color (#72809d). */
+.recent .button {
+  border-top: 1px solid #e4e8f3;
+  padding: 10px 30px;
+}
+/* `.recent .button`: Targets elements with the class name `.button` that are descendants of elements with the class name `.recent`.
+   
+ `border-top: 1px solid #e4e8f3;`: Adds a solid 1 pixel top border with a light blue-gray color (#e4e8f3) to the element.
+
+ `padding: 10px 30px;`: Adds 10 pixels of padding on the top and bottom, and 30 pixels on the left and right, to the element. */

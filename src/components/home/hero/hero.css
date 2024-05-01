@@ -1,0 +1,94 @@
+.hero {
+  background-image: url("../../../../public/images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+/* `.hero`: Selects elements with the class name `hero`.
+
+`background-image: url("../../../../public/images/banner.png");`: Sets the background image of elements with the class `hero` to the image located at the specified URL (`../../../../public/images/banner.png`).
+
+`background-repeat: no-repeat;`: Prevents the background image from repeating in case the element is larger than the image.
+
+`background-position: center;`: Positions the background image in the center of the element.
+
+`background-size: cover;`: Ensures that the background image covers the entire element while maintaining its aspect ratio.
+
+`height: 90vh;`: Sets the height of elements with the class `hero` to 90% of the viewport height (`vh` stands for viewport height).
+
+ `width: 100%;`: Sets the width of elements with the class `hero` to 100% of its container's width.
+ */
+.hero .container {
+  padding-top: 15%;
+}
+/* `.hero .container`: Selects elements with the class name `container` that are descendants of elements with the class `hero`.
+
+`padding-top: 15%;`: Sets the top padding of these elements to 15% of their own width. This creates space at the top of the container. */
+.hero h1 {
+  color: #fff;
+  font-size: 60px;
+}
+/* `.hero h1`: Selects `h1` elements that are descendants of elements with the class `hero`.
+
+`color: #fff;`: Sets the text color of these `h1` elements to white (#fff).
+
+`font-size: 60px;`: Sets the font size of these `h1` elements to 60 pixels. */
+.hero p {
+  color: #fff;
+  opacity: 0.8;
+}
+/*  */
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+/* `.hero p`: Selects `p` elements that are descendants of elements with the class `hero`.
+
+`color: #fff;`: Sets the text color of these `p` elements to white (#fff).
+
+`opacity: 0.8;`: Sets the opacity of these `p` elements to 0.8, making them slightly transparent. */
+form input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+form span {
+  font-size: 14px;
+  color: grey;
+}
+input::placeholder {
+  font-size: 17px;
+  color: black;
+}
+form .box {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+form .box:nth-child(1) {
+  border-left: none;
+}
+form h4 {
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .hero .container {
+    padding-top: 30%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}
+/* The remaining CSS rules apply styles to form elements and adjust layout based on screen size using media queries. */

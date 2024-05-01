@@ -1,0 +1,79 @@
+.awards {
+  background-color: #122947;
+  color: #fff;
+  text-align: center;
+}
+/* `.awards`: Selects elements with the class name `awards`.
+
+ `background-color: #122947;`: Sets the background color of elements with the class `awards` to a dark blue color (#122947).
+
+ `color: #fff;`: Sets the text color of elements with the class `awards` to white (#fff).
+
+ `text-align: center;`: Centers the text content horizontally within elements with the class `awards`. */
+.awards .heading {
+  display: flex;
+  flex-direction: column-reverse;
+}
+/* `.awards .heading`: Selects elements with the class `heading` that are descendants of elements with the class `awards`.
+
+ `display: flex;`: Sets the display property of the selected elements to flex, allowing for flexible layout and alignment of child elements.
+
+ `flex-direction: column-reverse;`: Sets the direction of the flex container's main axis to be vertical (column) and the order of the items to be reversed along that axis. */
+.awards .heading p {
+  color: #27ae60;
+}
+/* `.awards .heading p`: Selects `p` elements that are descendants of elements with the class `heading` that are themselves descendants of elements with the class `awards`.
+
+ `color: #27ae60;`: Sets the text color of these `p` elements to a light green color (#27ae60). */
+.awards .heading h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+}
+/* `.awards .heading h1`: Selects `h1` elements that are descendants of elements with the class `heading` that are themselves descendants of elements with the class `awards`.
+
+ `color: #fff;`: Sets the text color of these `h1` elements to white (#fff).
+
+ `font-size: 30px;`: Sets the font size of these `h1` elements to 30 pixels.
+
+ `font-weight: 400;`: Sets the font weight of these `h1` elements to 400, which is typically considered normal or regular weight. */
+.awards .icon {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  margin: auto;
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4% 50%;
+  font-size: 32px;
+  color: #ffffff;
+}
+/* `.awards .icon`: Selects elements with the class `icon` that are descendants of elements with the class `awards`.
+
+`width: 100px; height: 100px;`: Sets the width and height of these elements to 100 pixels.
+
+`line-height: 100px;`: Sets the line height of these elements to 100 pixels, aligning text vertically within the element.
+
+`margin: auto;`: Centers the elements horizontally within their parent container.
+
+`margin-top: 50px;`: Sets a top margin of 50 pixels for these elements.
+
+`background: rgba(255, 255, 255, 0.1);`: Sets the background color of these elements to a slightly transparent white (rgba(255, 255, 255, 0.1)).
+
+`border-radius: 4% 50%;`: Sets a border radius for these elements, creating a rounded shape with different radii for the corners.
+
+`font-size: 32px;`: Sets the font size of the text within these elements to 32 pixels.
+
+`color: #ffffff;`: Sets the text color within these elements to white (#ffffff). */
+.awards h1 {
+  font-size: 50px;
+}
+/* `.awards h1`: Selects `h1` elements that have the class `awards`.
+
+ `font-size: 50px;`: Sets the font size of these `h1` elements to 50 pixels. */
+.awards p {
+  color: grey;
+}
+/* `.awards p`: Selects `p` elements that have the class `awards`.
+
+ `color: grey;`: Sets the text color of these `p` elements to grey. */
