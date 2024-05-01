@@ -12,7 +12,7 @@ RentUp is a frontend-only web application designed to revolutionize the way user
 
 Learning Objectives:
 - Gain proficiency in frontend web development using HTML, CSS, JavaScript, and React.
-- Learn user interface design principles and apply them in the context of a real-world project.
+- Learn user interface design principles and apply them in the context of a real-world projects.
 - Understand the importance of user experience and usability testing in web development.
 - Explore techniques for integrating third-party APIs and services in a frontend-only application.
 
