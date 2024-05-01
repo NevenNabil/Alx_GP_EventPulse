@@ -64,7 +64,7 @@ Challenges Already Identified:
 
 
 Schedule of Work:
-We will utilize a Kanban board to organize our tasks and track progress. The schedule is broken down into four phases:
+We will utilize a Kanban board to organize our tasks and track progress. The schedule is divided into four phases:
 
 1. Planning and Design (Days 1-5): Define project requirements, create wireframes, and design the user interface. Set up the development environment and establish version control.
 
