@@ -8,7 +8,7 @@ Team Members:
 - Asmaa Elmallah.
 
 Description of the Project:
-RentUp is a frontend-only web application designed to revolutionize the way users search for and explore real estate properties. With a modern and intuitive interface, RentUp provides users with a seamless experience to browse properties, view details, and contact agents, all without the need for a backend infrastructure.
+RentUp is a frontend-only web application designed to revolutionize the way users search for and explore real estate properties. With a modern and intuitive interface, RentUp provides users with a seamless experience to browse properties, view details, and contact with agents, all without the need for a backend infrastructure.
 
 Learning Objectives:
 - Gain proficiency in frontend web development using HTML, CSS, JavaScript, and React.
