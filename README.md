@@ -23,7 +23,7 @@ Technologies Used:
 The technology stack used is primarily centered around web development using JavaScript and related frameworks and libraries. Here's a breakdown:
 
 1. JavaScript (JS):
-   - JavaScript is the primary programming language used for web development. It's used for both client-side and server-side development.
+   - JavaScript is the primary programming language used for web development. It's used for both client-side development and server-side development.
    
 2. React:
    - React is a JavaScript library for building user interfaces. It's widely used for creating single-page applications (SPAs) and dynamic web interfaces.
