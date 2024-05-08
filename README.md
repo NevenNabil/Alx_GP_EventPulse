@@ -1,6 +1,6 @@
-Project Pitch: "RentUp"
+Project Pitch: "EventPulse"
 
-Name of the Project: RentUp
+Name of the Project: EventPulse
 
 Team Members:
 - Heidi Elsayed.
@@ -8,7 +8,7 @@ Team Members:
 - Asmaa Elmallah.
 
 Description of the Project:
-RentUp is a frontend-only web application designed to revolutionize the way users search for and explore real estate properties. With a modern and intuitive interface, RentUp provides users with a seamless experience to browse properties, view details, and contact with agents, all without the need for a backend infrastructure.
+EventPulse is a frontend-only web application designed to create and publish events with details such as title, date, time, location, description, and category. Also, to transform the way users search for and explore events.
 
 Learning Objectives:
 - Gain proficiency in frontend web development using HTML, CSS, JavaScript, and React.
@@ -56,9 +56,9 @@ Overall, the technology stack consists of modern web development tools and frame
 
 
 Challenges Already Identified:
-1. Designing an intuitive and visually appealing user interface for property listings and search functionalities.
+1. Designing an intuitive and visually appealing user interface for event listings and search functionalities.
 2. Implementing efficient state management in React to handle dynamic data and user interactions.
-3. Integrating maps and location services to provide users with accurate property locations and directions.
+3. Integrating maps and location services to provide users with accurate events locations and directions.
 4. Ensuring cross-browser compatibility and responsive design for optimal user experience on different devices.
 
 
@@ -68,7 +68,7 @@ We will utilize a Kanban board to organize our tasks and track progress. The sch
 
 1. Planning and Design (Days 1-5): Define project requirements, create wireframes, and design the user interface. Set up the development environment and establish version control.
 
-2. Frontend Development (Days 6-14): Implement the frontend using HTML, CSS, JavaScript, and React. Focus on creating the core functionality of property listings, search, and user interactions.
+2. Frontend Development (Days 6-14): Implement the frontend using HTML, CSS, JavaScript, and React. Focus on creating the core functionality of event listings, search, and user interactions.
 
 
 3. Testing and Iteration (Days 15-20): Conduct thorough testing to ensure functionality, performance, and usability. Gather user feedback and iterate on design based on testing results.
@@ -76,8 +76,8 @@ We will utilize a Kanban board to organize our tasks and track progress. The sch
 4. Deployment and Documentation (Days 21-27): Deploy the application to a hosting service and document the development process. Prepare for potential future enhancements or scalability.
 
 
-With RentUp, we aim to deliver a cutting-edge real estate browsing experience that empowers users to find their dream properties effortlessly. Thank you for considering our project. We are excited to bring RentUp to life.
+With EventPulse, we aim to deliver an experience that empowers users to find the events they care about effortlessly. Thank you for considering our project. We are excited to bring EventPulse to life.
 
  
 
- Project Demo : https://funny-daffodil-350bc9.netlify.app/
+ Project Demo: https://mellow-madeleine-3cc717.netlify.app/
