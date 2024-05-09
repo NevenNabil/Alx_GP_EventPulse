@@ -48,9 +48,6 @@ The technology stack used is primarily centered around web development using Jav
 8. ESLint:
    - ESLint is a static code analysis tool for identifying problematic patterns or code errors in JavaScript code. It's commonly used to enforce coding standards and improve code quality.
    
-9. Jest and Testing Library:
-  - Jest: is a JavaScript testing framework maintained by Facebook. 
-- Testing Library: is a set of utilities for testing React components. They are used for writing and running tests to ensure the correctness of the application.
 
 Overall, the technology stack consists of modern web development tools and frameworks commonly used for building robust and interactive web applications.
 
