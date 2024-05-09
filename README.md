@@ -4,7 +4,7 @@ Name of the Project: Event Pulse
 
 Team Members:
 - Heidi Elsayed
-- Neven Shukri.
+- Neven Shukri
 - Asmaa Elmallah.
 
 Description of the Project:
