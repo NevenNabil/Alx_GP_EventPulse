@@ -38,7 +38,7 @@ The technology stack used is primarily centered around web development using Jav
    - CSS is used for styling the HTML elements. It's responsible for defining the visual presentation of the web pages, including layout, colors, fonts, and more.
    
 6. HTML:
-   - HTML is the standard markup language for creating web pages and web applications. It's used for defining the structure and content of web pages.
+   - HTML is the standard markup language for creating web pages and web applications. It's used for defining the structure & content of web pages.
 
 
 
