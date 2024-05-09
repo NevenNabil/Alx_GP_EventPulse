@@ -8,7 +8,7 @@ Team Members:
 - Asmaa Elmallah.
 
 Description of the Project:
-EventPulse is a frontend-only web application designed to create and publish events with details such as title, date, time, location, description, and category. Also, to transform the way users search for and explore events.
+Event Pulse is a frontend-only web application designed to create and publish events with details such as title, date, time, location, description, and category. Also, to transform the way users search for and explore events.
 
 Learning Objectives:
 - Gain proficiency in frontend web development using HTML, CSS, JavaScript, and React.
