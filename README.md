@@ -5,7 +5,7 @@ Name of the Project: Event Pulse
 Team Members:
 - Heidi Elsayed
 - Neven Shukri
-- Asmaa Elmallah.
+- Asmaa Elmallah
 
 Description of the Project:
 Event Pulse is a frontend-only web application designed to create and publish events with details such as title, date, time, location, description, and category. Also, to transform the way users search for and explore events.
