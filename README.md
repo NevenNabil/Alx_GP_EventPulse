@@ -1,4 +1,4 @@
-Project Pitch: "Event Pulse"ff
+Project Pitch: "Event Pulse"fff
 
 Name of the Project: Event Pulse
 
