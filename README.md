@@ -3,7 +3,7 @@ Project Pitch: "Event Pulse"
 Name of the Project: Event Pulse
 
 Team Members:
-- Heidi Elsayed.
+- Heidi Elsayed
 - Neven Shukri.
 - Asmaa Elmallah.
 
