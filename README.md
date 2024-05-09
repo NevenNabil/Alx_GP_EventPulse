@@ -1,6 +1,6 @@
 Project Pitch: "EventPulse"
 
-Name of the Project: EventPulse
+Name of the Project: Event Pulse
 
 Team Members:
 - Heidi Elsayed.
