@@ -26,7 +26,7 @@ The technology stack used is primarily centered around web development using Jav
    - JavaScript is the primary programming language used for web development. It's used for both client-side & server-side development.
    
 2. React:
-   - React is a JavaScript library for building user interfaces. It's widely used for creating single-page applications (SPAs) and dynamic web interfaces.
+   - React is a JavaScript library for building user interfaces. It's widely used for creating single-page applications (SPAs) & dynamic web interfaces.
    
 3. React Router:
    - React Router is a library for routing in React applications. It allows developers to manage navigation and URL changes in a React application.
