@@ -43,7 +43,7 @@ The technology stack used is primarily centered around web development using Jav
 
 
 7. npm and Yarn:
-   - npm (Node Package Manager) and Yarn are package managers for Node.js and JavaScript. They are used for installing, managing, and updating dependencies for the project.
+   - npm (Node Package Manager) and Yarn are package managers for Node.js and JavaScript. They are used for installing, managing, & updating dependencies for the project.
    
 8. ESLint:
    - ESLint is a static code analysis tool for identifying problematic patterns or code errors in JavaScript code. It's commonly used to enforce coding standards and improve code quality.
