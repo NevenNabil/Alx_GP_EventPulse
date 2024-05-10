@@ -14,7 +14,7 @@ Learning Objectives:
 - Gain proficiency in frontend web development using HTML, CSS, JavaScript, and React.
 - Learn user interface design principles & apply them in the context of a real-world projects.
 - Understand the importance of user experience & usability testing in web development.
-- Explore techniques for integrating third-party APIs and services in a frontend-only application.
+- Explore techniques for integrating third-party APIs & services in a frontend-only application.
 
 
 
