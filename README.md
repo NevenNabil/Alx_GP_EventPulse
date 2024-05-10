@@ -20,7 +20,7 @@ Learning Objectives:
 
 
 Technologies Used:
-The technology stack used is primarily centered around web development using JavaScript and related frameworks and libraries. Here's a breakdown:
+The technology stack used is primarily centered around web development using JavaScript and related frameworks & libraries. Here's a breakdown:
 
 1. JavaScript (JS):
    - JavaScript is the primary programming language used for web development. It's used for both client-side & server-side development.
