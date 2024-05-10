@@ -52,7 +52,7 @@ The technology stack used is primarily centered around web development using Jav
   - Jest: is a JavaScript testing framework maintained by Facebook. 
 - Testing Library: is a set of utilities for testing React components. They are used for writing and running tests to ensure the correctness of the application.
    
-Overall, the technology stack consists of modern web development tools and frameworks commonly used for building robust and interactive web applications.
+Overall, the technology stack consists of modern web development tools and frameworks commonly used for building robust & interactive web applications.
 
 
 Challenges Already Identified:
