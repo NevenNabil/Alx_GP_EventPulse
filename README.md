@@ -29,7 +29,7 @@ The technology stack used is primarily centered around web development using Jav
    - React is a JavaScript library for building user interfaces. It's widely used for creating single-page applications (SPAs) & dynamic web interfaces.
    
 3. React Router:
-   - React Router is a library for routing in React applications. It allows developers to manage navigation and URL changes in a React application.
+   - React Router is a library for routing in React applications. It allows developers to manage navigation & URL changes in a React application.
    
 4. Node.js:
    - Though not explicitly mentioned, Node.js is often used for running JavaScript on the server side. It's commonly used for building backend services, APIs, and server-side rendering in React applications.
