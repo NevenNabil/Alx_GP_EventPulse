@@ -76,7 +76,7 @@ We will utilize a Kanban board to organize our tasks and track progress. The sch
 4. Deployment and Documentation (Days 21-27): Deploy the application to a hosting service and document the development process. Prepare for potential future enhancements or scalability.
 
 
-With EventPulse, we aim to deliver an experience that empowers users to find the events they care about effortlessly. Thank you for considering our project. We are excited to bring EventPulse to life.
+With EventPulse, we aim to deliver an experience that empowers users to find the events they care about effortlessly. Thank you for considering our project. We are excited to bring Event Pulse to life.
 
  
 
